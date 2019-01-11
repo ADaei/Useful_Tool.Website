@@ -1,0 +1,20 @@
+-------------------------------------------------------
+plantuml website & download
+-------------------------------------------------------
+http://plantuml.com/
+http://plantuml.com/download
+
+
+-------------------------------------------------------
+online transfer website
+-------------------------------------------------------
+https://www.planttext.com/
+
+-------------------------------------------------------
+output to be svg file with window batch
+-------------------------------------------------------
+@echo off
+title plantuml-svg file output batch
+java -jar plantuml.jar -tsvg "./*.txt"
+echo transfer down
+pause
