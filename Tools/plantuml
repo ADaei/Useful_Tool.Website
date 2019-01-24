@@ -23,7 +23,6 @@ pause
 Skin example
 Reference: https://blog.csdn.net/qq_19457117/article/details/81431213
 -------------------------------------------------------
-
 @startuml name
 skinparam sequenceParticipant underline
 skinparam backgroundColor #EEE
