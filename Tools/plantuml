@@ -18,3 +18,34 @@ title plantuml-svg file output batch
 java -jar plantuml.jar -tsvg "./*.txt"
 echo transfer down
 pause
+
+-------------------------------------------------------
+Skin example
+Reference: https://blog.csdn.net/qq_19457117/article/details/81431213
+-------------------------------------------------------
+
+@startuml name
+skinparam sequenceParticipant underline
+skinparam backgroundColor #EEE
+skinparam handwritten true
+skinparam sequence {
+	ArrowColor #AAA
+	ActorBorderColor #AAA
+	LifeLineBorderColor #AAA
+	LifeLineBackgroundColor #AAA
+	
+	ParticipantBorderColor #CCC
+	ParticipantBackgroundColor #CCC
+	ParticipantFontName Monaco
+	ParticipantFontSize 14
+	ParticipantFontColor #000
+	
+	ActorBackgroundColor #CCC
+	ActorFontColor #000
+	ActorFontSize 14
+	ActorFontName Monaco
+}
+autonumber
+A->B : msg
+ 
+@enduml
