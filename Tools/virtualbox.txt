@@ -1,0 +1,5 @@
+[share clipboard]
+https://blog.xuite.net/yh96301/blog/300815666-VirtualBox+5.2%E5%AE%89%E8%A3%9DUbuntu+16.04%E8%88%87Windows+10%E5%85%B1%E7%94%A8%E5%89%AA%E8%B2%BC%E7%B0%BF
+
+[share folder]
+https://blog.gtwang.org/tips/virtualbox-shared-folder/
